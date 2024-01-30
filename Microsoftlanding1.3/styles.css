@@ -1,0 +1,223 @@
+body {
+    font-family: 'Calibri','Segoe UI', sans-serif;
+    background-image: linear-gradient(to right bottom, #e7dae1, #dfecd798 ,#c5c9e998, #dbd58398); 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h2{
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: "Segoe UI","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    font-weight: 600;
+    line-height: 28px;
+
+}
+.login-container[type="login-box"]{
+    background-color: #ffffff;
+    color: #1b1b1b;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding: 44px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.2);
+    text-align: left;
+    width: calc(100% - 40px);
+    max-width: 440px; 
+    min-width: 320px;
+    min-height: 338px;
+    margin: 0 auto; 
+}
+
+
+
+form input[type="text"] {
+    width: 95%;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: -2px;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #272727;
+    background-color:  #ffffff;
+    font-size: 14px;
+    width: calc(100% - 40px);
+}
+
+
+form input:hover{
+    border-bottom-color: #4895cc;
+}
+form input:focus {
+    border-bottom-color: #4895cc;
+}
+
+a
+{
+    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    width: calc(100% - 40px);
+}
+
+.special-link {
+    color: #0067b8; 
+    text-decoration: none; 
+    cursor: pointer;
+    transition: border-bottom 0.3s; 
+    width: calc(100% - 40px);
+}
+
+.special-link:hover {
+    border-bottom: 1px solid #0067b8; 
+}
+
+.firstButtons{
+display: flex;  
+justify-content: flex-end;
+}
+
+button[type="Vbutton"] {
+    border-color: transparent;
+    background-color: #ccc;
+    color: #000;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px;
+    min-height: 32px;
+    min-width: 108px;
+    line-height: normal;
+    transition: background-color 0.3s;
+    text-overflow: ellipsis;
+    display: block;
+    align-self: flex-end;
+}
+button[type="Vbutton"]:hover {
+    background-color: #505152;
+}
+
+button[type="button"] {
+    border-color: #0067b8;
+    background-color: #0067b8;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 5px;
+    min-height: 32px;
+    min-width: 108px;
+    line-height: normal;
+    transition: background-color 0.3s;
+    text-overflow: ellipsis;
+    display: block;
+    align-self: flex-end;
+}
+
+
+button:hover {
+    background-color: #003664;
+}
+
+.login-container[type="password-box"]{
+    background-color: #ffffff;
+    color: #1b1b1b;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding: 44px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.2);
+    text-align: left;
+    width: calc(100% - 40px);
+    max-width: 440px; /* Limite máximo */
+    min-width: 320px;
+    min-height: 338px;
+    margin: 0 auto; /* Centralizar */
+}
+
+ .botao_retorno {
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; 
+    border-radius: 40px; 
+    background-color: #fff;
+    text-align: center; 
+    line-height: 30px; 
+}
+
+.botao_retorno img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.botao_retorno:hover {
+   background-image: linear-gradient(to right bottom, #e7dae1, #dfecd798 ,#c5c9e998, #dfe9d998);
+   border-radius: 40px; 
+}
+
+.linhadelabel {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+font-size: 14px;
+font-family: 'Segoe UI';
+margin-top: 10px;
+}
+
+label{
+    font-family: 'Segoe UI';
+    margin-top: -2px;
+}
+
+form input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: -2px;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #272727;
+    background-color:  #ffffff;
+    font-size: 14px;
+}
+form input:hover{
+    border-bottom-color: #4895cc;
+}
+
+form input:focus {
+    border-bottom-color: #4895cc;
+}
+
+
+button[type="submit"] {
+    border-color: #0067b8;
+    background-color: #0067b8;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px;
+    min-width: 108px;
+    min-height: 32px;
+    line-height: normal;
+    transition: background-color 0.3s;
+    display: block;
+    align-self: flex-end;
+}
+
+button:hover {
+    background-color: #003664;
+}
